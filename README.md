@@ -14,6 +14,7 @@ In cases where we want to find an optimal blend of precision and recall we can c
 
 
 #Supervised learning
+
 Basically supervised learning is when we teach or train the machine using data that is well labelled. Which means some data is already tagged with the correct answer. After that, the machine is provided with a new set of examples(data) so that the supervised learning algorithm analyses the training data(set of training examples) and produces a correct outcome from labelled data.
 
 Types:-
@@ -43,6 +44,7 @@ Disadvantages:-
  
  
  #Unsupervised Learning
+ 
  Unsupervised learning is the training of a machine using information that is neither classified nor labeled and allowing the algorithm to act on that information without guidance. Here the task of the machine is to group unsorted information according to similarities, patterns, and differences without any prior training of data. 
  
 The two categories of algorithms: 
