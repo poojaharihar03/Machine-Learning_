@@ -7,3 +7,8 @@ The precise definition of recall is the number of true positives divided by the 
 
 •Accuracy-It is the number of correct predictions made by the model divided by the total number of predictions.
 
+• F1-Score
+In cases where we want to find an optimal blend of precision and recall we can combine the two metrics using what is called the F1 score.
+
+![image](https://user-images.githubusercontent.com/88924201/232049072-27fcdcd1-44d8-48c3-98f1-008ea38f0567.png)
+
