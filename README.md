@@ -75,3 +75,6 @@ Disadvantages of unsupervised learning :
 *The user needs to spend time interpreting and label the classes which follow that classification.
 
 ![image](https://user-images.githubusercontent.com/88924201/232050193-282c9324-ba79-4488-844d-a8c0c49354c7.png)
+
+
+![image](https://user-images.githubusercontent.com/88924201/232050825-1b5f73d7-99b0-40ba-833f-8ba57ce3147d.png)
