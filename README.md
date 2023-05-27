@@ -155,3 +155,10 @@ For deep learning, mxnet, tensorflow, and pytorch are the three most common libr
 **Hyperparameters** are settings on the model that are not changed during training but can affect how quickly or how reliably the model trains, such as the number of clusters the model should identify.
 A **loss function** is used to codify the model’s distance from this goal.
 **Model parameters**are settings or configurations the training algorithm can update to change how the model behaves.
+
+# Reinforcement learning 
+
+**Agent** is the entity being trained. In our example, this is a dog.
+** Environment**  is the “world” in which the agent interacts, such as a park.
+** Actions**  are performed by the agent in the environment, such as running around, sitting, or playing ball.
+** Rewards**  are issued to the agent for performing good actions.
