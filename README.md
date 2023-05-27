@@ -13,7 +13,7 @@ In cases where we want to find an optimal blend of precision and recall we can c
 ![image](https://user-images.githubusercontent.com/88924201/232049072-27fcdcd1-44d8-48c3-98f1-008ea38f0567.png)
 
 
-#Supervised learning
+# Supervised learning
 
 Basically supervised learning is when we teach or train the machine using data that is well labelled. Which means some data is already tagged with the correct answer. After that, the machine is provided with a new set of examples(data) so that the supervised learning algorithm analyses the training data(set of training examples) and produces a correct outcome from labelled data.
 
@@ -43,7 +43,7 @@ Disadvantages:-
 *It requires a training process.
  
  
- #Unsupervised Learning
+ # Unsupervised Learning
  
  Unsupervised learning is the training of a machine using information that is neither classified nor labeled and allowing the algorithm to act on that information without guidance. Here the task of the machine is to group unsorted information according to similarities, patterns, and differences without any prior training of data. 
  
@@ -83,14 +83,14 @@ Disadvantages of unsupervised learning :
 The presence or absence of labeling in your data is often used to identify a machine learning task.
 
 ML task
-#Supervised tasks
+# Supervised tasks
 A task is supervised if you are using labeled data. We use the term labeled to refer to data that already contains the solutions, called labels.
 For example, predicting the number of snow cones sold based on the average temperature outside is an example of supervised learning.
 
 Snow Cone
 In the preceding graph, the data contains both a temperature and the number of snow cones sold. Both components are used to generate the linear regression shown on the graph. Our goal was to predict the number of snow cones sold, and we feed that value into the model. We are providing the model with labeled data and therefore, we are performing a supervised machine learning task.
 
-#Unsupervised tasks
+# Unsupervised tasks
 A task is considered to be unsupervised if you are using unlabeled data. This means you don't need to provide the model with any kind of label or solution while the model is being trained.
 Let's take a look at unlabeled data.
 
@@ -106,7 +106,7 @@ The assumption is that you are fairly confident that micro-genres exist, and tha
 This is where the unsupervised learning clustering technique might be able to detect some groupings in the data. The words and phrases used in a book's description might provide some guidance on its micro-genre.
 
 
-#Quality of data-
+# Quality of data-
 The quality of your data will ultimately be the largest factor that affects how well you can expect your model to perform. As you inspect your data, look for:
 
 # Outliers
@@ -116,7 +116,7 @@ Data that needs to be transformed or preprocessed so it's in the correct format 
 https://scikit-learn.org/stable/auto_examples/applications/plot_outlier_detection_wine.html#sphx-glr-auto-examples-applications-plot-outlier-detection-wine-py
 
 
-#test and train
+# test and train
 Splitting the dataset gives you two sets of data:
 Training dataset: The data on which the model will be trained. Most of your data will be here. Many developers estimate about 80%.
 Test dataset: The data withheld from the model during training, which is used to test how well your model will generalize to new data.
@@ -125,8 +125,8 @@ Test dataset: The data withheld from the model during training, which is used to
 # The model training algorithm iteratively updates a model's parameters to minimize some loss function.
 
 Let's define those two terms:
-Model parameters: Model parameters are settings or configurations that the training algorithm can update to change how the model behaves. Depending on the context, you’ll also hear other specific terms used to describe model parameters such as weights and biases. Weights, which are values that change as the model learns, are more specific to neural networks.
-Loss function: A loss function is used to codify the model’s distance from a goal. For example, if you were trying to predict the number of snow cone sales based on the day’s weather, you would care about making predictions that are as accurate as possible. So you might define a loss function to be “the average distance between your model’s predicted number of snow cone sales and the correct number.” You can see in the snow cone example; this is the difference between the two purple dots.
+**Model parameters: Model parameters are settings or configurations that the training algorithm can update to change how the model behaves. Depending on the context, you’ll also hear other specific terms used to describe model parameters such as weights and biases. Weights, which are values that change as the model learns, are more specific to neural networks.
+**Loss function**: A loss function is used to codify the model’s distance from a goal. For example, if you were trying to predict the number of snow cone sales based on the day’s weather, you would care about making predictions that are as accurate as possible. So you might define a loss function to be “the average distance between your model’s predicted number of snow cone sales and the correct number.” You can see in the snow cone example; this is the difference between the two purple dots.
 
 
 
@@ -143,15 +143,15 @@ Tree-based models are probably the second most common model type covered in intr
 Extremely popular and powerful, deep learning is a modern approach that is based around a conceptual model of how the human brain functions. The model (also called a neural network) is composed of collections of neurons (very simple computational units) connected together by weights (mathematical representations of how much information thst is allowed to flow from one neuron to the next). The process of training involves finding values for each weight. Various neural network structures have been determined for modeling different kinds of problems or processing different kinds of data.
 
 A short (but not complete!) list of noteworthy examples includes:
-*FFNN*: The most straightforward way of structuring a neural network, the Feed Forward Neural Network (FFNN) structures neurons in a series of layers, with each neuron in a layer containing weights to all neurons in the previous layer.
-*CNN*: Convolutional Neural Networks (CNN) represent nested filters over grid-organized data. They are by far the most commonly used type of model when processing images.
-*RNN/LSTM*: Recurrent Neural Networks (RNN) and the related Long Short-Term Memory (LSTM) model types are structured to effectively represent for loops in traditional computing, collecting state while iterating over some object. They can be used for processing sequences of data.
-8Transformer*: A more modern replacement for RNN/LSTMs, the transformer architecture enables training over larger datasets involving sequences of data.
+**FFNN**: The most straightforward way of structuring a neural network, the Feed Forward Neural Network (FFNN) structures neurons in a series of layers, with each neuron in a layer containing weights to all neurons in the previous layer.
+**CNN**: Convolutional Neural Networks (CNN) represent nested filters over grid-organized data. They are by far the most commonly used type of model when processing images.
+**RNN/LSTM**: Recurrent Neural Networks (RNN) and the related Long Short-Term Memory (LSTM) model types are structured to effectively represent for loops in traditional computing, collecting state while iterating over some object. They can be used for processing sequences of data.
+**Transformer**: A more modern replacement for RNN/LSTMs, the transformer architecture enables training over larger datasets involving sequences of data.
 
 # Machine learning using Python libraries
 For more classical models (linear, tree-based) as well as a set of common ML-related tools, take a look at scikit-learn. The web documentation for this library is also organized for those getting familiar with space and can be a great place to get familiar with some extremely useful tools and techniques.
 For deep learning, mxnet, tensorflow, and pytorch are the three most common libraries. For the purposes of the majority of machine learning needs, each of these is feature-paired and equivalent.
 
-*Hyperparameters* are settings on the model that are not changed during training but can affect how quickly or how reliably the model trains, such as the number of clusters the model should identify.
-A *loss function* is used to codify the model’s distance from this goal.
-*Model parameters* are settings or configurations the training algorithm can update to change how the model behaves.
+**Hyperparameters** are settings on the model that are not changed during training but can affect how quickly or how reliably the model trains, such as the number of clusters the model should identify.
+A **loss function** is used to codify the model’s distance from this goal.
+**Model parameters**are settings or configurations the training algorithm can update to change how the model behaves.
